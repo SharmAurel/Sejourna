@@ -9,21 +9,23 @@ import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.LinearLayout;
 import android.widget.Spinner;
+import android.widget.Toast;
 
 import java.util.ArrayList;
 
 public class MainActivity extends AppCompatActivity {
-ArrayList <String> Countries=new ArrayList<String>();
+ArrayList <String> Countries=new ArrayList<>();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         Button button = findViewById(R.id.button);
-        final LayoutInflater factory = getLayoutInflater();
-        final View view2=factory.inflate(R.layout.formulaire,null);
-        Button button2 = .findViewById(R.id.button2);
-        Spinner spinner=ViewFormulaire2.findViewById(R.id.spinner3);
+        LayoutInflater factory = getLayoutInflater();
+        View view2=factory.inflate(R.layout.formulaire,null);
+        Button button2 = view2.findViewById(R.id.button2);
+        System.out.println("aaaaaaaaaaaa " +button2 + " aaaaaaaaa " + R.id.button2);
+        Spinner spinner=view2.findViewById(R.id.spinner3);
         Countries.add("France");
         try {
             ArrayAdapter<String> adapter = new ArrayAdapter<>(MainActivity.this, R.layout.formulaire, Countries);
@@ -33,18 +35,21 @@ ArrayList <String> Countries=new ArrayList<String>();
         {
             throw e;
         }
-        button2.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                setContentView(R.layout.formulaire2);
-            }
-        });
+
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                setContentView(R.layout.formulaire);
+                System.out.println("aaaaaaaaaaaa " +button2 + " aaaaaaaaa " + view2.findViewById(R.id.button2));
+
+                //afficher formulaire 1
+                Toast.makeText(MainActivity.this, "yo",Toast.LENGTH_SHORT).show();
             }
         });
-
+        button2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                //afficher formulaire 2
+            }
+        });
     }
 }
