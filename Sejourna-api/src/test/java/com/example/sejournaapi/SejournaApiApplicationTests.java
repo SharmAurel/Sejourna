@@ -1,13 +1,13 @@
-package com.Miage.Sejourna;
+package com.example.sejournaapi;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class SejournaApplicationTests {
+class SejournaApiApplicationTests {
 
-	@Test
-	void contextLoads() {
-	}
+    @Test
+    void contextLoads() {
+    }
 
 }
