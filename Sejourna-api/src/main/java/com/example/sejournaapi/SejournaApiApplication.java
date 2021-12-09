@@ -7,7 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class SejournaApiApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(SejournaApiApplication.class, args);
+
     }
 
 }
