@@ -8,25 +8,11 @@ import java.util.ArrayList;
 public class Data_input {
     ArrayList<Integer> inputed_activities_id;
     ArrayList<Activities> Imported_activities= new ArrayList<>();
-    int Chill_score;
-    int Cultural_score;
-    int Entertainment_score;
-    int Gastronomy_score;
-    int Nature_score;
-    int Other_score;
-    int Sport_score;
-    int Touristic_score;
+    int activity_score[];
     Data_input(ArrayList<Integer> inputed_activities_id)
     {
         this.inputed_activities_id=inputed_activities_id;
-         Chill_score=0;
-         Cultural_score=0;
-         Entertainment_score=0;
-         Gastronomy_score=0;
-         Nature_score=0;
-         Other_score=0;
-         Sport_score=0;
-         Touristic_score=0;
+        activity_score=new int[8];
     }
     public void import_activities()
     {
@@ -43,32 +29,43 @@ public class Data_input {
                 switch (Imported_activities.getClass().getSimpleName())
                 {
                     case "Chill":
-                        Chill_score++;
+                        activity_score[0]++;
                         break;
                     case "Cultural":
-                        Cultural_score++;
+                        activity_score[1]++;
                         break;
                     case "Entertainment":
-                        Entertainment_score++;
+                        activity_score[2]++;
                         break;
                     case "Gastronomy":
-                        Gastronomy_score++;
+                        activity_score[3]++;
                         break;
                     case "Nature":
-                        Nature_score++;
+                        activity_score[4]++;
                         break;
                     case "Other":
-                        Other_score++;
+                        activity_score[5]++;
                         break;
                     case "Sport":
-                        Sport_score++;
+                        activity_score[6]++;
                         break;
                     case "Touristic":
-                        Touristic_score++;
+                        activity_score[7]++;
                         break;
                 }
             }
         }
     }
 
+    public ArrayList<Integer> getInputed_activities_id() {
+        return inputed_activities_id;
+    }
+
+    public ArrayList<Activities> getImported_activities() {
+        return Imported_activities;
+    }
+
+    public int[] getActivity_score() {
+        return activity_score;
+    }
 }

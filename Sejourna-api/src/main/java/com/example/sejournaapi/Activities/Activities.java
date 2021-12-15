@@ -97,4 +97,8 @@ public Activities(int id,double prix,String description,String titre,double lati
     public void setType(String type) {
         this.type = type;
     }
+    public String toString()
+    {
+        return this.titre+" ";
+    }
 }
