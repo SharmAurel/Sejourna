@@ -26,4 +26,75 @@ public Activities(int id,double prix,String description,String titre,double lati
     this.type=type;
 }
 
+    public double getPrix() {
+        return prix;
+    }
+
+    public void setPrix(double prix) {
+        this.prix = prix;
+    }
+
+    public ArrayList<Avis> getAvis() {
+        return avis;
+    }
+
+    public void setAvis(ArrayList<Avis> avis) {
+        this.avis = avis;
+    }
+
+    public int getAvissurcinq() {
+        return avissurcinq;
+    }
+
+    public void setAvissurcinq(int avissurcinq) {
+        this.avissurcinq = avissurcinq;
+    }
+
+    public String getDescription() {
+        return description;
+    }
+
+    public void setDescription(String description) {
+        this.description = description;
+    }
+
+    public String getTitre() {
+        return titre;
+    }
+
+    public void setTitre(String titre) {
+        this.titre = titre;
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    public double getLatitude() {
+        return latitude;
+    }
+
+    public void setLatitude(double latitude) {
+        this.latitude = latitude;
+    }
+
+    public double getLongitude() {
+        return longitude;
+    }
+
+    public void setLongitude(double longitude) {
+        this.longitude = longitude;
+    }
+
+    public String getType() {
+        return type;
+    }
+
+    public void setType(String type) {
+        this.type = type;
+    }
 }
