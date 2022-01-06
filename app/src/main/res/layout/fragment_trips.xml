@@ -4,19 +4,15 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.myapplication.Fragments.ProfileFragment"
+    tools:context="com.example.myapplication.Fragments.TripsFragment"
     android:gravity="center"
-    android:background="#BED4D6">
+    android:background="#BED4D6"
+    android:orientation="horizontal">
 
-    <TextView
-        android:id="@+id/fragment_page_profile_title"
-        android:layout_width="wrap_content"
+    <ListView
+        android:id="@+id/list"
         android:layout_height="wrap_content"
-        android:layout_margin="20dip"
-        android:textSize="25sp"
-        android:textStyle="bold"
-        android:textColor="#fff"
-        android:textAlignment="center"
-        android:text="... et dans ce fragment afficher les boyages de l'utilisateur"/>
+        android:layout_width="match_parent">
+    </ListView>
 
 </LinearLayout>

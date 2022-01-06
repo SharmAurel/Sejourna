@@ -6,7 +6,8 @@
     android:layout_height="match_parent"
     tools:context="com.example.myapplication.Fragments.NewsFragment"
     android:gravity="center"
-    android:background="#EDD9CF">
+    android:background="#BED4D6">
+
 
     <TextView
         android:id="@+id/fragment_page_news_title"
@@ -17,6 +18,6 @@
         android:textStyle="bold"
         android:textColor="#fff"
         android:textAlignment="center"
-        android:text="Nous pourrions afficher un fil d'actualité ici non ?"/>
+        android:text="Fil d'actualité avec affiche d'activités au hasard"/>
 
 </LinearLayout>

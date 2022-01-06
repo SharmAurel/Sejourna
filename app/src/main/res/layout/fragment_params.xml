@@ -17,6 +17,6 @@
         android:textStyle="bold"
         android:textColor="#fff"
         android:textAlignment="center"
-        android:text="... en terminant par afficher les paramètres de l'application là ? "/>
+        android:text="Page de paramètres "/>
 
 </LinearLayout>

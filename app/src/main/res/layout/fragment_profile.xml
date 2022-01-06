@@ -5,18 +5,80 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.example.myapplication.Fragments.ProfileFragment"
-    android:gravity="center"
-    android:background="#BED4D6">
+    android:background="#BED4D6"
+    android:orientation="vertical">
 
-    <TextView
-        android:id="@+id/fragment_page_profile_title"
+    <ImageView
+        android:id="@+id/profilePicture"
+        android:layout_width="139dp"
+        android:layout_height="124dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="150dp"
+        android:padding="5dp"
+        android:src="@drawable/pp" />
+    <EditText
+        android:id="@+id/profileName"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_margin="20dip"
-        android:textSize="25sp"
-        android:textStyle="bold"
-        android:textColor="#fff"
-        android:textAlignment="center"
-        android:text="... et dans ce fragment afficher le profil de l'utilisateur, hein ?"/>
+        android:layout_below="@id/profilePicture"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="110dp"
+
+        android:gravity="center"
+        android:text="Aurelien SHARMA"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/profileDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/profilePicture"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="Biographie :Bonjour voici le profil d'Aurelien"
+        android:textSize="18sp"
+        android:textStyle="italic" />
+
+    <EditText
+        android:id="@+id/profileAddress"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/profileDescription"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:text="Adresse : 8 allée de l'université, 92000 Nanterre"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/profileTelephone"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/profileDescription"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:text="Numéro de téléphone : +33 606813917"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/profileMail"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/profileDescription"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:text="Mail : sharmaurel@gmail.com"
+        android:textSize="18sp" />
+
 
 </LinearLayout>

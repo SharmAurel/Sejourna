@@ -17,7 +17,7 @@
         android:textStyle="bold"
         android:textColor="#fff"
         android:textAlignment="center"
-        android:text="... Dans ce Fragment afficher l'algo l'ajout de voyages"/>
+        android:text="Dans ce Fragment afficher l'algo l'ajout de voyages"/>
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/floatingActionButton"
