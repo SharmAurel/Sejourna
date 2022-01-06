@@ -65,6 +65,7 @@ public class Data_input {
         return Imported_activities;
     }
 
+
     public int[] getActivity_score() {
         return activity_score;
     }

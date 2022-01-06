@@ -38,7 +38,8 @@ public class Creation_planning {
         }
 
     }
-    public Activities getRandomActivity(int Type)
+
+   /* public Activities getRandomActivity(int Type)
     {
     String type;
     int retourne;
@@ -90,6 +91,11 @@ public class Creation_planning {
             {
                 System.out.println(a.toString());
                 }
+
+        }*/
+        public void Appels_méthodes()
+        {
+            sort_array();
 
         }
 }
