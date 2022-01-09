@@ -46,7 +46,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         setContentView(R.layout.activity_main);
 
         // Configure all views
-        this.configureToolBar();
+            this.configureToolBar();
         this.configureDrawerLayout();
         this.configureNavigationView();
 
@@ -103,6 +103,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
     // Config Toolbar
     private void configureToolBar(){
         this.toolbar = (Toolbar) findViewById(R.id.activity_main_toolbar);
+        this.toolbar.setTitle("Sejourna");
         setSupportActionBar(toolbar);
     }
 

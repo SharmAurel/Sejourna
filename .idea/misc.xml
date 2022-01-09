@@ -3,20 +3,12 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/android/myapp/app/src/main/res/drawable-v24/circleyellowfil.xml" value="0.1125" />
+        <entry key="..\:/Users/mido1/Documents/Sejourna-master/app/src/main/res/layout/fragment_profile.xml" value="0.11548913043478261" />
         <entry key="..\:/android/myapp/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.2203125" />
-        <entry key="..\:/android/myapp/app/src/main/res/drawable/circle.xml" value="0.1125" />
-        <entry key="..\:/android/myapp/app/src/main/res/drawable/grad.xml" value="0.1125" />
         <entry key="..\:/android/myapp/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2203125" />
-        <entry key="..\:/android/myapp/app/src/main/res/layout/activity_main.xml" value="0.16032608695652173" />
-        <entry key="..\:/android/myapp/app/src/main/res/layout/activity_main_nav_header.xml" value="0.20416666666666666" />
+        <entry key="..\:/android/myapp/app/src/main/res/layout/activity_main.xml" value="0.22" />
         <entry key="..\:/android/myapp/app/src/main/res/layout/dimens.xml" value="0.20416666666666666" />
         <entry key="..\:/android/myapp/app/src/main/res/layout/formulaire.xml" value="0.22" />
-        <entry key="..\:/android/myapp/app/src/main/res/layout/fragment_news.xml" value="0.20416666666666666" />
-        <entry key="..\:/android/myapp/app/src/main/res/layout/fragment_params.xml" value="0.20416666666666666" />
-        <entry key="..\:/android/myapp/app/src/main/res/layout/fragment_planifier.xml" value="0.20416666666666666" />
-        <entry key="..\:/android/myapp/app/src/main/res/layout/fragment_profile.xml" value="0.16" />
-        <entry key="..\:/android/myapp/app/src/main/res/layout/fragment_trips.xml" value="0.20416666666666666" />
         <entry key="..\:/android/myapp/app/src/main/res/layout/login.xml" value="0.1" />
         <entry key="..\:/android/myapp/app/src/main/res/layout/menu.xml" value="0.1" />
         <entry key="..\:/android/myapp/app/src/main/res/layout/menu_drawer.xml" value="0.20416666666666666" />
